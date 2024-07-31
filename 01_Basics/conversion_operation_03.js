@@ -20,7 +20,24 @@ console.log(booleanInfo);//if we pass blank value it will show false
 //"" ==> false
 //"mdh" => true
 
+
+
 let someNumber =33;
 let stringSome = String(someNumber);
 console.log(stringSome);
 console.log(typeof stringSome)
+
+
+/**************oprations*********************/
+
+console.log(2**3)
+console.log(2*3)
+console.log(2-3)
+console.log(2+3)
+
+console.log("1" + 2) ; //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2) ;//122
+console.log(1 + 2 + "2");//32
+console.log(+ true);//1
+console.log(+ "");//0
