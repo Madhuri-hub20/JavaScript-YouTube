@@ -35,3 +35,6 @@ const myFunction = function(){
 }
 myFunction();
 
+//Stack = Primitive 
+//Heap = Non-Primitive
+
