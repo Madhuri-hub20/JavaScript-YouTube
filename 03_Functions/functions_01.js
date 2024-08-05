@@ -25,5 +25,24 @@ console.log("Result is : ", result);
 function loginUserMessage(username){
     return `${username} just loggedIn`;
 }
-console.log(loginUserMessage("mdh"))
-console.log(loginUserMessage());
+console.log(loginUserMessage("mdh"))//return mdh just loggedIn
+console.log(loginUserMessage());//it will return undefined just loggedIn
+
+function calculateCartPrice(val1,val2,...num1){ //here we suing rest operator(...) it will collect multipe element into array
+    return num1;
+}
+console.log(calculateCartPrice(100,200,300,400));
+
+const user = {
+   userName : "Bhushan",
+   price : 1200
+}
+
+function handleObject(anyObject){
+    console.log(`User Name is : ${anyObject.userName} and Price is : ${anyObject.price} `);
+}
+handleObject(user);
+handleObject({
+    userName  : "wagh",
+    price  : 333
+})

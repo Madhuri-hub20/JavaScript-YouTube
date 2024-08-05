@@ -15,3 +15,4 @@ const myObj = {
 
 console.log(myObj);
 console.log(myObj[mySymbol]);
+console.log(mySymbol)
