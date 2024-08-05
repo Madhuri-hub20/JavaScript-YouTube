@@ -1,5 +1,5 @@
 //this
-const user = {
+/*const user = {
     username : "Madhuri",
     price : 999,
 
@@ -19,4 +19,11 @@ console.log(addition(2,3));
 //example for implicit
 
 const add = (num3, num4) => (num3 + num4)
-console.log(add(5,5))
+console.log(add(5,5))*/
+
+
+//Immediate invoke function expresion(IIFE)
+
+(function chai () {
+    console.log("db connected");
+})()
