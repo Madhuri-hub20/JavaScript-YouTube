@@ -24,6 +24,15 @@ console.log(add(5,5))*/
 
 //Immediate invoke function expresion(IIFE)
 
+//singile IIFE
 (function chai () {
     console.log("db connected");
+})();
+//need to add iife in one code (2 IIFE)
+
+(function chai () {
+    console.log("DB");
+})(),
+(function chai1 () {
+    console.log("connected");
 })()
